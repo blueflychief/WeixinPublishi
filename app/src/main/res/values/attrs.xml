@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="addPic">
+        <attr name="row_size" format="integer"/>
+        <attr name="max_size" format="integer"/>
+        <attr name="child_padding" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="DotIndicatorView">
+        <attr name="dot_number" format="integer"/>
+        <attr name="dot_current" format="integer"/>
+        <attr name="dot_normal_radius" format="integer"/>
+        <attr name="dot_select_radius" format="integer"/>
+        <attr name="dot_margin" format="integer"/>
+        <attr name="dot_select_color" format="color"/>
+        <attr name="dot_normol_color" format="color"/>
+        <attr name="orientation">
+            <enum name="horizontal" value="1"/>
+            <enum name="vertical" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="MyAppBar">
+        <attr name="navigationGravity">
+            <enum name="top" value="0"/>
+            <enum name="center_vertical" value="1"/>
+        </attr>
+        <attr name="center_title" format="reference|string"/>
+        <attr name="center_title_size" format="dimension"/>
+        <attr name="center_title_color" format="reference|color"/>
+        <attr name="menu_left" format="reference"/>
+        <attr name="menu_right" format="reference"/>
+        <attr name="menu_center" format="reference"/>
+        <attr name="menu4" format="reference"/>
+        <attr name="menu5" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="AppBar.Menu">
+        <attr name="toolbarMenuTextStyle" format="reference"/>
+        <attr name="toolbarMenuImageStyle" format="reference"/>
+        <attr name="toolbarMenuSpinnerStyle" format="reference"/>
+    </declare-styleable>
+</resources>

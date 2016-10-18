@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppThemeCompat.Base" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/public_status_bar_bg_color</item>
+        <item name="android:windowBackground">@color/background_primary</item>
+        <item name="android:windowAnimationStyle">@style/myact</item>
+    </style>
+
+    <style name="myact">
+        <item name="android:activityOpenEnterAnimation">@anim/alpha_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/alpha_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/alpha_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/alpha_out</item>
+    </style>
+
+    <style name="SplitLineStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/gray</item>
+    </style>
+
+    <!-- 自定义loading dialog -->
+    <style name="LoadingDialogStyle" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/bg_common_dialog</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AnimationFromBottom">
+        <item name="android:windowEnterAnimation">@anim/popupwindow_out</item>
+        <item name="android:windowExitAnimation">@anim/popupwindow_in</item>
+    </style>
+</resources>

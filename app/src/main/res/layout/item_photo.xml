@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.infinite.weixincircle.widget.photopicker.widget.SquareItemLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dp_4">
+
+    <ImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@color/gray"
+        android:padding="1dip"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/v_selected"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/margin_small"
+        android:clickable="true"
+        android:src="@drawable/bg_cb_picture_selector"/>
+
+</com.infinite.weixincircle.widget.photopicker.widget.SquareItemLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/gray">   <!--必须写！水波纹扩散颜色-->
+    <!--<item-->
+        <!--android:drawable="@color/gray"-->
+        <!--android:state_pressed="true" />-->
+    <item
+        android:drawable="@color/white"
+        android:state_pressed="false" />
+
+    <item android:drawable="@android:color/transparent" />
+
+</ripple>

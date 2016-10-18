@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="public_primary_color">#EA5500</color>          <!--主色调-->
+    <color name="public_primary_color_dark">#EA8800</color>
+    <color name="run_path">#A1D354</color>          <!--主色调-->
+
+    <color name="public_tool_bar_bg_color">#F0F0F0</color>      <!-- tool bar 背景色 -->
+    <color name="public_status_bar_bg_color">#80000000</color>    <!-- status bar 背景色 -->
+    <color name="public_status_bar_text_color">#535353</color>    <!-- status bar Title色 -->
+
+
+    <color name="public_text_hint_color">#999999</color>            <!--输入框提示颜色-->
+    <color name="public_text_black">#FF363636</color>   <!--文字颜色-->
+
+
+    <color name="black">#FF000000</color>
+    <color name="gray">#FF888888</color>
+    <color name="gray_1">#F0F0F0</color>
+    <color name="gray_dark">#FF5E5D5D</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFFF0000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="greenDark">#229719</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="yellow">#FFFFFF00</color>
+    <color name="orange">#FFFFA500</color>
+    <color name="purple">#FFA020F0</color>
+
+    <color name="public_background_divider">#C8C8C8</color>  <!--divider颜色-->
+
+    <color name="public_text_title_color">#000000</color>           <!--标题颜色-->
+
+    <color name="public_divider_line_color">#D9D9D9</color>     <!--分割线颜色-->
+
+    <color name="public_bold_divider_line_color">#eef0f0f0</color>     <!--粗分割线颜色-->
+
+    <color name="background_primary">#F1F1F1</color>     <!--背景颜色，Activity背景-->
+
+    <color name="public_button_text_color">#FFFFFF</color>          <!--按钮字体颜色-->
+    <color name="public_button_normal_color">#EA5500</color>          <!--按钮默认颜色-->
+    <color name="public_button_pressed_color">#FB8C15</color>
+</resources>

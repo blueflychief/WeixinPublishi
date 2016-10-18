@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">WeixinCircle</string>
+
+
+    <string name="string_capture_photo">拍照</string>
+    <string name="string_select_photo">从相册选择</string>
+    <string name="string_recored_video">小视频</string>
+    <string name="string_record_audio">录音</string>
+    <string name="string_publish_hint_with_140">这一刻的想法…（最多140字）</string>
+
+    <string name="string_over_max_count_tips">你最多可以选择%1$d张图片</string>
+    <string name="string_image_count">%1$d张</string>
+    <string name="string_view_photo">查看图片</string>
+    <string name="string_select_photo_title">选择图片</string>
+    <string name="string_all_image">所有图片</string>
+
+    <string name="string_run_camera_failed">启动摄像头失败，请在系统设置中允许使用摄像头</string>
+    <string name="string_done_with_count">完成(%1$d/%2$d)</string>
+    <string name="string_publish">发布</string>
+
+    <string name="string_delete">删除</string>
+    <string name="string_done">完成</string>
+    <string name="string_publishing_topic">正在发布...</string>
+    <string name="string_publish_topic_title">发布状态</string>
+    <string name="error_data_delay_try">数据错误，请稍后重试</string>
+    <string name="string_tips">温馨提示</string>
+    <string name="string_save_pic_desc">是否保存图片</string>
+    <string name="string_saving_image">正在保存图片...</string>
+    <string name="string_saving_image_to">图片已保存到%s</string>
+    <string name="string_save_pic_failed">保存图片失败</string>
+    <string name="string_capture_photo_failed">拍照失败</string>
+</resources>
